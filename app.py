@@ -5,7 +5,7 @@ import datetime
 import time
 # 授權
 
-gc = pygsheets.authorize(service_file='D:\Key\stock-438118-f3ac42f619df.json')
+gc = pygsheets.authorize(service_file='/etc/secrets/Key.json')
 
 # 打開 Google Sheet
 sht = gc.open_by_url('https://docs.google.com/spreadsheets/d/1p524CpGfpYusHkXGM4WR__lzqEClDsuQk35EWyCaINE/edit?gid=0#gid=0')
